@@ -38,7 +38,7 @@ define maven::setup (
   exec { "move_maven-${name}":
     cwd     => $cachedir,
     command => "cp -r extracted/apache-maven*/* ${deploymentdir} && chown -R ${user}:${user} ${deploymentdir}",
-    creates => "${deploymentdir}/bin/maven",
+    creates => "${deploymentdir}/bin/mvn",
     require => Exec["create_target_maven-${name}"],
   }
 

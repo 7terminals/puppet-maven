@@ -13,7 +13,7 @@
     "README.md": "4a97c6718433c75b0f1697a6d840b312",
     "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
     "manifests\\init.pp": "c5a526d44dba771f33af779f884b1e6c",
-    "manifests\\setup.pp": "cbcca4a83a132aa7b4e0a63d84c91bdd",
+    "manifests\\setup.pp": "606d60d056b6f2d646b1f27bc0c9d9f7",
     "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
     "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
     "tests\\init.pp": "d4f41beab1ba5d199c9ffb9f5d094bd6"
