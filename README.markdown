@@ -1,0 +1,3 @@
+# puppet-maven #
+
+This is the puppet-maven module. It provides...

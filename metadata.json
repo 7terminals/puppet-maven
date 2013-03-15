@@ -1,0 +1,22 @@
+{
+  "name": "7terminals-maven",
+  "author": "Francis Pereira",
+  "description": "",
+  "license": "",
+  "project_page": "https://github.com/francispereira/puppet-maven",
+  "source": "https://github.com/francispereira/puppet-maven",
+  "summary": "Puppet module to setup and manage Maven",
+  "version": "",
+  "checksums": {
+    "Modulefile": "f1db704239bc2b19f495a0e4ab2d7570",
+    "README.markdown": "6e279c613839fced81f1d7bbf8ab5613",
+    "README.md": "4a97c6718433c75b0f1697a6d840b312",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests\\init.pp": "c5a526d44dba771f33af779f884b1e6c",
+    "manifests\\setup.pp": "cbcca4a83a132aa7b4e0a63d84c91bdd",
+    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "tests\\init.pp": "d4f41beab1ba5d199c9ffb9f5d094bd6"
+  },
+  "dependencies": []
+}
