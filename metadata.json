@@ -1,22 +1,21 @@
 {
   "name": "7terminals-maven",
   "author": "Francis Pereira",
-  "description": "",
+  "description": "The Apache Maven module allows Puppet to install maven and update the bashrc file to include maven in the path. ",
   "license": "",
   "project_page": "https://github.com/francispereira/puppet-maven",
   "source": "https://github.com/francispereira/puppet-maven",
   "summary": "Puppet module to setup and manage Maven",
-  "version": "",
+  "version": "0.0.1",
   "checksums": {
-    "Modulefile": "f1db704239bc2b19f495a0e4ab2d7570",
-    "README.markdown": "6e279c613839fced81f1d7bbf8ab5613",
-    "README.md": "4a97c6718433c75b0f1697a6d840b312",
+    "Modulefile": "b559da56f4ca4138c30b2193a1c14d22",
+    "README.markdown": "71df769fcef4fac67b83d1aac4a9299c",
     "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
-    "manifests\\init.pp": "c5a526d44dba771f33af779f884b1e6c",
-    "manifests\\setup.pp": "606d60d056b6f2d646b1f27bc0c9d9f7",
+    "manifests\\init.pp": "967c3c1d88e45d6ad669247376bcb53f",
+    "manifests\\setup.pp": "9634c78c1f25b5400d570156f58d3db6",
     "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
     "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
-    "tests\\init.pp": "d4f41beab1ba5d199c9ffb9f5d094bd6"
+    "tests\\init.pp": "e936642f59e2b0c8f4cbfd885742f3af"
   },
   "dependencies": []
 }
