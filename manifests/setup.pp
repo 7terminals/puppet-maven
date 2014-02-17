@@ -82,8 +82,8 @@ define maven::setup (
 
     exec { "update_path-${name}":
       cwd     => '/',
-      command => "echo 'export PATH=\$PATH:${deploymentdir}/bin' >> ${pathfile}",
-      unless  => "grep 'export PATH=\$PATH:${deploymentdir}/bin' ${pathfile}",
+      command => "echo 'export PATH=${deploymentdir}/bin:\$PATH' >> ${pathfile}",
+      unless  => "grep 'export PATH=${deploymentdir}/bin:\$PATH' ${pathfile}",
       require => Exec["move_maven-${name}"],
     }
   } else {
