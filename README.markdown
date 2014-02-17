@@ -92,6 +92,10 @@ Bug Reports
 Release Notes
 --------------
 
+**0.0.2**
+
+- Append maven bin path to beginning of PATH
+
 **0.0.1**
 
-First initial release.
+- First initial release.

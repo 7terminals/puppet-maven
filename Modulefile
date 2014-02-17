@@ -1,5 +1,5 @@
 name '7terminals-maven'
-version '0.0.1'
+version '0.0.2'
 
 author 'Francis Pereira'
 license ''

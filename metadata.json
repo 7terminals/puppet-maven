@@ -6,7 +6,7 @@
   "project_page": "https://github.com/francispereira/puppet-maven",
   "source": "https://github.com/francispereira/puppet-maven",
   "summary": "Puppet module to setup and manage Maven",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "checksums": {
     "Modulefile": "b559da56f4ca4138c30b2193a1c14d22",
     "README.markdown": "71df769fcef4fac67b83d1aac4a9299c",
