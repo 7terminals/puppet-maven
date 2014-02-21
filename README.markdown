@@ -91,6 +91,10 @@ Bug Reports
 
 Release Notes
 --------------
+**0.0.4**
+
+- Regenerated metadata.json
+
 **0.0.3**
 
 - Fixed issues with Modulefile and metadata.json
