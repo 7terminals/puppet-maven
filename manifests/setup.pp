@@ -80,11 +80,18 @@ define maven::setup (
       require => Exec["create_target_maven-${name}"],
     }
 
+    exec { "update_maven_home-${name}":
+      cwd     => '/',
+      command => "echo 'export MAVEN_HOME=${deploymentdir}' >> ${pathfile}",
+      unless  => "grep 'export MAVEN_HOME=${deploymentdir}' ${pathfile}",
+      require => Exec["move_maven-${name}"],
+    }
+
     exec { "update_path-${name}":
       cwd     => '/',
-      command => "echo 'export PATH=${deploymentdir}/bin:\$PATH' >> ${pathfile}",
-      unless  => "grep 'export PATH=${deploymentdir}/bin:\$PATH' ${pathfile}",
-      require => Exec["move_maven-${name}"],
+      command => "echo 'export PATH=\${MAVEN_HOME}/bin:\$PATH' >> ${pathfile}",
+      unless  => "grep 'export PATH=\${MAVEN_HOME}/bin:\$PATH' ${pathfile}",
+      require => Exec["update_maven_home-${name}"],
     }
   } else {
     file { $deploymentdir:
